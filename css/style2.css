@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+section{
+	min-height: 800px
+}
+.navbar .navbar-brand{
+	color: #3367F5; font-size: 20px; font-weight: bold
+}
+.navbar .navbar-brand:hover{
+	color: #E00509
+}
+@media (max-width:470px) {
+	.navbar{
+		display: flex; justify-content: center
+	}
+	#scrollspyHeading1{
+		padding-top: 50px
+	}
+}
